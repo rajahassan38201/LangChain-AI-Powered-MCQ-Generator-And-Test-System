@@ -3,7 +3,7 @@ import os
 import json
 from io import BytesIO
 from dotenv import load_dotenv
- 
+
 load_dotenv()  
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
@@ -340,5 +340,6 @@ elif st.session_state.current_state == "upload":
 st.markdown("---")
 
 st.markdown("Developed by Hafiz Hassan Abdullah | Email: rajahassan38201@gmail.com | Phone: +92 302 3536363")
+
 
 
