@@ -13,7 +13,7 @@ from langchain_core.documents import Document
 from langchain_core.runnables import RunnablePassthrough
 from typing import List, Dict, Any, Literal
 from pydantic import BaseModel, Field
-
+ 
 # For DOCX handling (optional, requires python-docx)
 try:
     from docx import Document as DocxDocument
@@ -338,4 +338,5 @@ elif st.session_state.current_state == "upload":
     st.info("Upload a document and click 'Generate MCQs' to start the test.")
 
 st.markdown("---")
+
 st.markdown("Developed by Hafiz Hassan Abdullah | Email: rajahassan38201@gmail.com | Phone: +92 302 3536363")
