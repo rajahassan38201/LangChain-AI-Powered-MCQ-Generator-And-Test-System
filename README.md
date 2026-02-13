@@ -6,7 +6,7 @@ https://github.com/user-attachments/assets/54de3cfc-a9a4-4c4a-b92b-bca21d6a583d
 # Project Description
 This project is an AI-powered Multiple-Choice Question (MCQ) Generator built using Streamlit, Langchain, and Google Gemini API. It allows users to upload a document (TXT, PDF, or DOCX), specify the number of MCQs to generate from its content, and then take a test based on these generated questions. After completing the test, users receive a detailed summary of their performance and all the correct answers for review.
 
-# Features
+# Feature
 Document Upload: Supports uploading .txt, .pdf, and .docx files.
 
 # AI-Powered MCQ Generation: Generates multiple-choice questions directly from the uploaded document's content using Google Gemini via Langchain.
